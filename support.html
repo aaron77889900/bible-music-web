@@ -1,66 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="light" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Support - Bible Music</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #FDFBF7; /* Warm off-white */
-            color: #1F2A44; /* Deep Charcoal */
-        }
-        .accent-color {
-            color: #FF4500; /* Bible Music Orange */
-        }
-        .hover-accent:hover {
-            color: #FF4500;
-            text-decoration: underline;
-        }
+        body { font-family: 'Inter', sans-serif; }
     </style>
 </head>
-<body class="min-h-screen p-8 md:p-16">
-    <div class="max-w-2xl mx-auto">
-        <!-- Back Link -->
-        <a href="/" class="flex items-center text-[#FF4500] font-medium mb-12 hover:opacity-80 transition-opacity">
-            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-            </svg>
-            Bible Music
-        </a>
-
-        <!-- Title -->
-        <h1 class="text-3xl font-bold mb-10 text-slate-800">Support - Bible Music</h1>
-
-        <!-- Need Help Section -->
-        <section class="mb-12">
-            <h2 class="text-xl font-bold accent-color mb-4">Need Help?</h2>
-            <p class="text-slate-600 leading-relaxed max-w-lg">
-                Are you experiencing an issue with the Bible Music app or do you have a question? We're here to help!
-            </p>
-        </section>
-
-        <!-- Contact Us Section -->
-        <section class="mb-12">
-            <h2 class="text-xl font-bold accent-color mb-4">Contact Us</h2>
-            <p class="text-slate-600 mb-6 leading-relaxed">
-                Send us an email and we'll get back to you as soon as possible:
-            </p>
-            
-            <a href="mailto:support@thebiblemusic.com" class="text-xl font-medium text-slate-800 border-b-2 border-slate-300 pb-1 hover:border-[#FF4500] transition-colors">
-                support@thebiblemusic.com
+<body class="antialiased text-[#1F2A44] bg-[#FAF6F2] p-8 md:p-16">
+    <div class="max-w-3xl mx-auto">
+        <!-- Brand Link (Same as Privacy/Terms Header style) -->
+        <header class="mb-16">
+            <a href="/" class="inline-flex items-center text-[#FF4500] font-medium hover:opacity-80 transition-opacity">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+                Bible Music
             </a>
+        </header>
 
-            <p class="mt-8 text-sm text-stone-400">
-                We typically respond within 1 to 2 business days.
-            </p>
-        </section>
+        <main>
+            <!-- Title style matches Legal Pages -->
+            <h1 class="text-3xl font-bold mb-12 tracking-tight">Support - Bible Music</h1>
 
-        <!-- Technical Footer -->
-        <footer class="mt-24 pt-8 border-t border-stone-200">
-            <p class="text-xs text-stone-300">© 2026 Bible Music. All rights reserved.</p>
+            <!-- Content Sections (Consistent spacing with Legal Pages) -->
+            <section class="mb-12">
+                <h2 class="text-xl font-bold mb-4 text-[#FF4500]">Need Help?</h2>
+                <p class="leading-relaxed text-stone-600 mb-6">
+                    Are you experiencing an issue with the Bible Music app or do you have a question? We're here to help!
+                </p>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="text-xl font-bold mb-4 text-[#FF4500]">Contact Us</h2>
+                <p class="leading-relaxed text-stone-600 mb-8">
+                    Send us an email and we'll get back to you as soon as possible:
+                </p>
+                
+                <a href="mailto:support@thebiblemusic.com" class="text-2xl font-semibold hover:text-[#FF4500] transition-colors border-b-2 border-stone-200 hover:border-[#FF4500] pb-1">
+                    support@thebiblemusic.com
+                </a>
+
+                <p class="mt-8 text-sm text-stone-400">
+                    We typically respond within 1 to 2 business days.
+                </p>
+            </section>
+        </main>
+
+        <!-- Footer style matches Legal Pages -->
+        <footer class="mt-32 pt-8 border-t border-stone-200 text-xs text-stone-400">
+            © 2026 Bible Music. All rights reserved.
         </footer>
     </div>
 </body>
